@@ -3,17 +3,18 @@ Vasu Chopra
 Mohmed Sajid
 */
 import React from "react";
-import "./css/Footer.css";
+import "./css/Contact.css";
 
-function Footer() {
+function Contact() {
   return (
     <footer>
       <div className="footer-wrapper">
         <div className="footer container">
           <div className="footer-info">
-            <a href="/" className="logo">
+            <a href="/#" className="logo">
               PizzaMakers
             </a>
+            <h1></h1>
             <p>
             We simplify the food cooking process. Our tools equip households to eat better food, eat together, save money at the grocery store, and have a less stressful cooking experience.
             </p>
@@ -39,10 +40,10 @@ function Footer() {
           <div className="footer-info">
             <h4>Quick Links</h4>
             <div className="quick-links contact-info">
-              <a href="/"><h5>Home</h5></a>
-              <a href="/menu"><h5>Menu</h5></a>
-              <a href="/about-us"><h5>About Us</h5></a>
-              <a href="/contact-us"><h5>Contact Us</h5></a>
+              <h5><a href="/">Home</a></h5>
+              <h5><a href="/menu">Menu</a></h5>
+              <h5><a href="/about-us">About Us</a></h5>
+              <h5><a href="/contact-us">Contact Us</a></h5>
             </div>
           </div>
           
@@ -58,4 +59,4 @@ function Footer() {
   );
 }
 
-export default Footer;
+export default Contact;

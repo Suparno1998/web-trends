@@ -1,14 +1,12 @@
 import React from "react";
 import { Routes, Route, BrowserRouter} from "react-router-dom";
-import './App.css';
+import './css/App.css';
 import Home from "./components/Home";
 import AboutUs from './components/AboutUs';
-import ContactUs from './components/ContactUs';
+import ContactUs from './components/ContactUs/ContactUs';
 import Menu from './components/Menu';
 import Members from './components/Members';
 import NavbarTrends from "./components/Navbar";
-import NavbarTwo from "./components/NavbarTwojsx";
-import HomeSlider from "./components/HomeSlider/HomeSlider";
 import Footer from "./components/Footer/Footer";
 function App() {
   return (

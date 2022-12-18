@@ -1,3 +1,4 @@
+/* Suparno Karmakar */
 import React from 'react';
 import HomeSlider from './HomeSlider/HomeSlider';
 import HomeDishPromotion from './HomeDishPromotion/HomeDIshPromotion';

@@ -1,5 +1,9 @@
-import React, { Component } from "react";
-import "./HomeDIshPromotion.css";
+/* 
+Suparno Karmakar 
+Mohmed Sajid
+*/
+import React from "react";
+import "./css/HomeDIshPromotion.css";
 
 
 function HomeDishPromotion(){
@@ -18,13 +22,13 @@ function HomeDishPromotion(){
                         <button type="button" class="btn btn-danger">Order Now</button>
                     </div>
                     <div class="col-12 col-md-6">
-                        <img className="egg-image-tag" src="./images/natural-100-percent.png" alt="100 percent tag"/>
+                        
                         <img className="product-image" src="./images/burger.png" alt="Classic burger"/>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-12 col-md-6">
-                        <img className="salmon-image-tag" src="./images/natural-100-percent.png" alt="100 percent tag"/>
+                        
                         <img className="product-image" src="./images/Shawarma.png" alt="Lamb shawarma"/>
                     </div>
                     <div class="col-12 col-md-6">

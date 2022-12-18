@@ -1,6 +1,10 @@
+/* 
+Mohmed Sajid
+Vasu Chopra
+Suparno Karmakar
+*/
 import React from 'react';
-import Carousel from 'react-bootstrap/Carousel';
-import './HomeSlider.css'
+import './css/HomeSlider.css'
 
 function HomeSlider() {
   return (
